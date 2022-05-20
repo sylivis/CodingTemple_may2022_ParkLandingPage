@@ -1,0 +1,30 @@
+.masthead {
+    background-size: cover;
+    position: relative;
+    min-height: 90vh;
+    color: white;
+    background-repeat: no-repeat;
+    text-shadow: 3px 3px 3px rgb(1, 1, 1)
+}
+h1 {
+    font-size: 4res;
+}
+.footlink {
+    text-decoration: none;
+}
+.color-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .1)
+}
+@media (max-width: 768px) {
+    .masthead {
+        min-height: 50vh;
+    }
+}
+@media (max-width: 576px){
+    .eventpic {
+        max-width: 70%;
+    }
+}
